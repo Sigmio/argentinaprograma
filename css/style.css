@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(45, 37, 48)!important;
+    font-family: 'Ubuntu', sans-serif!important;
+}
+
+
+#encabezado{
+    background-color: rgb(45, 37, 48);
+    color: #eee;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+#proyecto{
+    padding-top: 10px;
+    background-color: rgb(234, 232, 232)!important;
+}
+
+#random-us{
+    background-color: rgb(45, 37, 48);
+    color: #eee;
+}
+
+#unprofile{
+    display: none;
+}
+
+#usuario{
+    padding-top: 15px;
+    display: none;
+}
+
+#loader{
+    padding: 100px 0;
+    color: #eee;
+    min-height: 100vh;
+}
+
+#showinfo{
+    font-size: 12px!important;
+}
+
+
+#usuario li{
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+
+.title-prof{
+    font-size: 12px;
+    border-bottom: #eee solid 1px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+h5{
+    font-size: 17px!important;
+}
+
+#unprofile .bk-user{
+    background-color: rgb(45, 37, 48);
+}
+
+/* CSS Male profile */
+
+#background_male .bk-user{
+    background-color: rgb(228, 228, 228);
+}
+
+#background_male #usuario li{
+    background-color: rgb(15, 75, 128);
+    color: aliceblue;
+    border-color: rgb(31, 101, 163);
+}
+
+#background_male #foto{
+    border: rgb(31, 101, 163) solid 5px;
+}
+
+#background_male #usuario > li.list-group-item.destacado{
+    background-color: rgb(31, 101, 163)!important;
+}
+
+#background_male #usuario > li.list-group-item h3{
+    background-color: rgb(13, 59, 99)!important;
+    padding-bottom: 4px!important;
+    padding-top: 8px!important;
+    margin-top: 8px;
+    text-indent: 8px;
+    text-align: left!important;
+}
+
+/* CSS Female profile */
+
+#background_female .bk-user{
+    background-color: rgb(254, 223, 255);
+}
+
+#background_female #usuario li{
+    background-color: rgb(105, 9, 168);
+    color: aliceblue;
+    border-color: rgb(137, 42, 201);
+}
+
+#background_female #foto{
+    border: rgb(137, 42, 201) solid 5px;
+}
+
+#background_female #usuario > li.list-group-item.destacado{
+    background-color: rgb(137, 42, 201)!important;
+}
+
+#background_female #usuario > li.list-group-item h3{
+    background-color: rgb(85, 9, 135)!important;
+    padding-bottom: 4px!important;
+    padding-top: 8px!important;
+    margin-top: 8px;
+    text-indent: 8px;
+    text-align: left!important;
+}
+
+
+
