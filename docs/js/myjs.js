@@ -1,5 +1,3 @@
-console.log('holajs');
-
 let usuario;
 
 
@@ -30,8 +28,8 @@ function print_data(usuario){
     $('#direccion_num').html(usuario['location']['street']['number'])
     $('#email').html(usuario['email'])
     $('#telefono').html(usuario['phone'])
+    $('#cel').html(usuario['cell'])
     let profile = 'background_'+usuario['gender']
-    $('body').attr("class",profile)
     $('div[name="profile"]').attr("id",profile);
     
 }

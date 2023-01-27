@@ -76,10 +76,16 @@ h5{
     background-color: rgb(45, 37, 48);
 }
 
+#pie{
+    font-size: 13px;
+    padding: 13px 0;
+}
+
 /* CSS Male profile */
 
 #background_male .bk-user{
     background-color: rgb(228, 228, 228);
+    padding-bottom: 15px;
 }
 
 #background_male #usuario li{
@@ -98,7 +104,7 @@ h5{
 
 #background_male #usuario > li.list-group-item h3{
     background-color: rgb(13, 59, 99)!important;
-    padding-bottom: 4px!important;
+    padding-bottom: 6px!important;
     padding-top: 8px!important;
     margin-top: 8px;
     text-indent: 8px;
@@ -109,6 +115,7 @@ h5{
 
 #background_female .bk-user{
     background-color: rgb(254, 223, 255);
+    padding-bottom: 15px;
 }
 
 #background_female #usuario li{
